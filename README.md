@@ -23,15 +23,15 @@ We introduce **Emu3**, a new suite of state-of-the-art multimodal models trained
 </div>
 
 ### Highlights
-
 - **Emu3** is capable of generating high-quality images following the text input, by simply predicting the next vision token. The model naturally supports flexible resolutions and styles.
 - **Emu3** shows strong vision-language understanding capabilities to see the physical world and provides coherent text responses. Notably, this capability is achieved without depending on a CLIP and a pretrained LLM.
 - **Emu3** simply generates a video causally by predicting the next token in a video sequence, unlike the video diffusion model as in Sora. With a video in context, Emu3 can also naturally extend the video and predict what will happen next. 
 
 ## News
-- 2024.10 We release the image pretrained model **[Emu3-Stage1](https://huggingface.co/BAAI/Emu3-Stage1)** and the sft scripts. The model supports image captioning and can generate images at a resolution of 512x512. You can use our training scripts for further instruction tuning for more image generation and perception tasks. 🔥🔥🔥
-- 2024.09 We relase **[Emu3-Chat](https://huggingface.co/BAAI/Emu3-Chat)** and **[Emu3-Gen](https://huggingface.co/BAAI/Emu3-Gen)** which are post training models separately for vision-language understanding and vision generation.
-- 2024.09 We introduce Emu3, a new suite of state-of-the-art multimodal models trained solely with next-token prediction.
+- [2025.08] **[Emu3-Chat](https://huggingface.co/BAAI/Emu3-Chat)** has been supported by [VLLM](https://docs.vllm.ai/en/latest/models/supported_models/#text-generation_1) as Emu3ForConditionalGeneration.
+- [2024.10] We release the image pretrained model **[Emu3-Stage1](https://huggingface.co/BAAI/Emu3-Stage1)** and the sft scripts. The model supports image captioning and can generate images at a resolution of 512x512. You can use our training scripts for further instruction tuning for more image generation and perception tasks. 🔥🔥🔥
+- [2024.09] We relase **[Emu3-Chat](https://huggingface.co/BAAI/Emu3-Chat)** and **[Emu3-Gen](https://huggingface.co/BAAI/Emu3-Gen)** which are post training models separately for vision-language understanding and vision generation.
+- [2024.09] We introduce Emu3, a new suite of state-of-the-art multimodal models trained solely with next-token prediction.
 
 
 ### TODO
