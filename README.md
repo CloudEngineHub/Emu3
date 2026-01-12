@@ -281,6 +281,10 @@ for idx, im in enumerate(recon_images):
 
 We thank the great work from [Emu Series](https://github.com/baaivision/Emu), [QWen2-VL](https://github.com/QwenLM/Qwen2-VL) and [MoVQGAN](https://github.com/ai-forever/MoVQGAN)
 
+This work is supported by the National Science and Technology Major Project (No. 2022ZD0116314).
+
+本项目受新一代人工智能国家科技重大专项（No. 2022ZD0116314）支持。
+
 ## Citation
 
 If you find Emu3 useful for your research and applications, please consider starring this repository and citing:
